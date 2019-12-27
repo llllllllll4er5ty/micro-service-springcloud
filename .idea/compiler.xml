@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="micro-service-cloud-api" />
+        <module name="micro-service-cloud-config-3344" />
+        <module name="micro-service-cloud-config-client-3355" />
         <module name="micro-service-cloud-consumer-dept-80" />
         <module name="micro-service-cloud-consumer-dept-feign" />
+        <module name="micro-service-cloud-consumer-hystrix-dashboard" />
         <module name="micro-service-cloud-eureka-7001" />
         <module name="micro-service-cloud-eureka-7002" />
         <module name="micro-service-cloud-eureka-7003" />
@@ -17,12 +20,14 @@
         <module name="micro-service-cloud-provider-dept-8002" />
         <module name="micro-service-cloud-provider-dept-8003" />
         <module name="micro-service-cloud-provider-dept-hystrix-8001" />
+        <module name="micro-service-cloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="micro-service-cloud-eureka-7001 (1)" target="1.8" />
       <module name="micro-service-cloud-provider-8001" target="1.8" />
+      <module name="microservicecloudconfigclient3355" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -13,7 +13,7 @@ import java.util.List;
  * @author daxiong
  * @date 2019-12-25 11:06
  */
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
     Dept get(@PathVariable("id") long id);
